@@ -1,0 +1,15 @@
+/* Taille du titre */
+.titleSize{
+font-size: 3em;
+margin-left: 2%;
+}
+
+/* Disposition des onglet de navigation */
+.flexOnglet{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.5em;
+    margin-right: 2%;
+}

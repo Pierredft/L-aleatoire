@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Grand Hotel';
+    src: url('GrandHotel-Regular.eot');
+    src: local('Grand Hotel'), local('GrandHotel-Regular'),
+        url('GrandHotel-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GrandHotel-Regular.woff2') format('woff2'),
+        url('GrandHotel-Regular.woff') format('woff'),
+        url('GrandHotel-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+.fontTitle{
+    font-family: 'Grand Hotel';
+}
+
