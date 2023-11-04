@@ -1,3 +1,7 @@
+*{
+    margin: 0%;
+}
+
 /* Taille du titre */
 .titleSize{
 font-size: 3em;
@@ -12,4 +16,78 @@ margin-left: 2%;
     align-items: center;
     font-size: 1.5em;
     margin-right: 2%;
+}
+
+/* couleur du background navBar */
+.bg-color{
+    background-color: #200DAB;
+}
+
+/* Couleur des textes de la navBar */
+.textColor{
+    color: #ffff;
+}
+
+/* Mise en forme des onglets */
+.flexNav{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* disposition de la partie mini */
+.mini{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+/* disposition de la partie max */
+.max{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+
+/* centrage des nombre entrée */
+.center{
+    text-align: center;
+}
+
+/* disposition des données d'entrée */
+.flexEntrer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+/* mise en place du boutton */
+.flexBtn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+/* mise en place resultat */
+.flexResult{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+    font-size: 2em;
+    margin: 0 25%;
+}
+
+/* Mise en place du footer */
+.copyR{
+background-color: #200DAB;
+color: #ffff;
+display: flex;
+justify-content: center;
+padding: 2%;
+margin-top: 2%;
+font-weight: bold;
 }
