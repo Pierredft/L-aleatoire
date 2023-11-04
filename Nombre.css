@@ -6,6 +6,7 @@
 .titleSize{
 font-size: 3em;
 margin-left: 2%;
+text-decoration: none;
 }
 
 /* Disposition des onglet de navigation */
