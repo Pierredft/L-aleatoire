@@ -40,60 +40,50 @@ text-decoration: none;
     margin-right: 50px;
 }
 
-/* disposition de la partie mini */
-.mini{
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-}
-
-/* disposition de la partie max */
-.max{
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-}
-
-/* centrage des nombre entrée */
-.center{
+/* mise en forme du tableau */
+.width{
+    width: 50%;
     text-align: center;
+    margin-left: 25%;
+    border: solid 1px black;
+    margin-top: 2%;
 }
 
-/* disposition des données d'entrée */
-.flexEntrer{
+/* mise en forme de l'entrer du texte */
+.prenom{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
     gap: 15%;
-    text-align: center;
-    margin-bottom: 5%;
-    margin-top: 5%;
-}
-
-/* mise en place du boutton */
-.flexBtn{
-    display: flex;
     justify-content: center;
-    margin-bottom: 5%;
+    align-items: center;
+    margin-top: 2%;
 }
 
-/* mise en place resultat */
-.flexResult{
+.resultat{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 2%;
-    font-size: 2em;
-    margin: 0 25%;
+    margin-top: 2%;
 }
 
 /* Mise en place du footer */
 .copyR{
-background-color: #200DAB;
-color: #ffff;
-display: flex;
-justify-content: center;
-padding: 2%;
-margin-top: 2%;
-font-weight: bold;
-}
+    background-color: #200DAB;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    margin-top: 2%;
+    font-weight: bold;
+    }
+
