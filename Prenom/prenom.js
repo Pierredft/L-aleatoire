@@ -35,10 +35,10 @@ function generateRandomIndex(maxIndex) {
       // Générez un index aléatoire en fonction de la longueur du tableau
       var randomIndex = generateRandomIndex(tableBody.children.length);
   
-      // Sélectionnez la ligne du tableau correspondant à l'index aléatoire
+      // Sélectionne la ligne du tableau correspondant à l'index aléatoire
       var randomRow = tableBody.children[randomIndex];
   
-      // Obtenez le texte de la cellule dans cette ligne (colonne "Prénom")
+      // Obtenir le texte de la cellule dans cette ligne (colonne "Prénom")
       var randomFirstName = randomRow.querySelector('td').textContent;
   
       // Affichez le prénom aléatoire dans l'élément avec l'ID "resultat"

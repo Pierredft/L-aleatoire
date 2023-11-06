@@ -78,12 +78,21 @@ text-decoration: none;
 
 /* Mise en place du footer */
 .copyR{
-    background-color: #200DAB;
+    
     color: #ffff;
     display: flex;
     justify-content: center;
-    padding: 2%;
-    margin-top: 2%;
     font-weight: bold;
+    }
+
+footer{
+    background-color: #200DAB;
+}
+
+    body{
+        min-height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
     }
 

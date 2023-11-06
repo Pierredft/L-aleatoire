@@ -5,7 +5,7 @@
     var maxInput = document.getElementById("max");
     var resultatElement = document.getElementById("resultat");
 
-    // Obtenez les valeurs des champs "min" et "max"
+    // Obtenir les valeurs des champs "min" et "max"
     var min = parseInt(minInput.value);
     var max = parseInt(maxInput.value);
 
@@ -22,6 +22,6 @@
     }
   }
 
-  // Écoutez le clic sur le bouton "Générer" et appelez la fonction generateRandomNumber()
+  // Appuiyer  sur le bouton "Générer" et appelez la fonction generateRandomNumber()
   var generateButton = document.querySelector('input[type="submit"]');
   generateButton.addEventListener("click", generateRandomNumber);
