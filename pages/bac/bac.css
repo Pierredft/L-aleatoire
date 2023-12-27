@@ -40,40 +40,10 @@ text-decoration: none;
     margin-right: 50px;
 }
 
-/* mise en forme du tableau */
-.width{
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;
-    border: solid 1px black;
-    margin-top: 2%;
-}
+/* Fin de la nav */
 
-/* mise en forme de l'entrer du texte */
-.prenom{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
-}
-
-.button{
-    display: flex;
-    flex-direction: row;
-    gap: 15%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-}
-
-.resultat{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2%;
-    margin-top: 2%;
+button{
+    width: 30%;
 }
 
 /* Mise en place du footer */
