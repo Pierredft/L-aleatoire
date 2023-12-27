@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+}
+
+/* Taille du titre */
+.titleSize{
+font-size: 3em;
+margin-left: 2%;
+text-decoration: none;
+}
+
+/* Disposition des onglet de navigation */
+.flexOnglet{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.5em;
+    margin-right: 2%;
+}
+
+/* couleur du background navBar */
+.bg-color{
+    background-color: #200DAB;
+}
+
+/* Couleur du button resposive de la navBar */
+.whiteColor{
+    background-color: white;
+}
+
+/* Couleur des textes de la navBar */
+.textColor{
+    color: #ffff;
+}
+
+/* Mise en forme des onglets */
+.flexNav{
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+/* mise en forme du tableau */
+.width{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    border: solid 1px black;
+    margin-top: 2%;
+}
+
+/* mise en forme de l'entrer du texte */
+.prenom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.resultat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-top: 2%;
+}
+
+/* Mise en place du footer */
+.copyR{
+    
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    }
+
+footer{
+    background-color: #200DAB;
+}
+
+    body{
+        min-height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+

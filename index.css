@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+}
+
+/* Taille du titre */
+.titleSize{
+font-size: 3em;
+margin-left: 2%;
+text-decoration: none;
+}
+
+/* Disposition des onglet de navigation */
+.flexOnglet{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.5em;
+    margin-right: 2%;
+}
+
+/* couleur du background navBar */
+.bg-color{
+    background-color: #200DAB;
+}
+
+/* Couleur du button resposive de la navBar */
+.whiteColor{
+    background-color: white;
+}
+
+/* Couleur des textes de la navBar */
+.textColor{
+    color: #ffff;
+}
+
+/* Mise en forme des onglets */
+.flexNav{
+    text-decoration: none;
+    margin-right: 50px;
+}
