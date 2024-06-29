@@ -1,4 +1,4 @@
-let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let alphabet = "ABCDEFGHIJLMNOPRSTUV";
         let index = 1;
         let lettersInCurrentRow = 0;
         let currentRow;
